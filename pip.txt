@@ -1,0 +1,7 @@
+pip install --upgrade pip
+pip install pymysql pandas sqlalchemy spacy requests
+python -m spacy download es_core_news_sm
+
+pip install selenium webdriver-manager mysql-connector-python
+
+https://github.com/SergeyPirogov/webdriver_manager

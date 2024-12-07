@@ -1,0 +1,47 @@
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+/* Si las imágenes necesitan margen */
+.navbar-brand img {
+    /* Puedes ajustar el margen si es necesario */
+    margin-right: 8px;
+}
+
+/* Si deseas ocultar el texto del enlace y mostrar solo la imagen en móviles */
+@media (max-width: 576px) {
+    .navbar-brand {
+        flex: 0 0 auto;
+    }
+}
+
+
+/* Estilo para las tarjetas */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Estilo para las imágenes */
+.card-img-top {
+    cursor: pointer;
+}
+
+/* Estilo para el título */
+.card-title {
+    font-weight: bold;
+}
+
+/* Estilo para el modal */
+.modal-content {
+    background-color: #f8f9fa;
+}
+
+.modal-body {
+    text-align: center;
+}
